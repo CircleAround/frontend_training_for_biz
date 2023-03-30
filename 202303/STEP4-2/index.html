@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Vueサンプル</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    {{ count }}
+    <counter @count-up="countUp"></counter>
+    <decrement-counter @count-down="countDown"></decrement-counter>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
